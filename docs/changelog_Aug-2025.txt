@@ -1,0 +1,26 @@
+Changelog — Hoopscope Website, August 2025
+
+Major Changes:
+- Replaced all Gemini API logic with OpenAI endpoint proxy setup (see AI-Integration-Plan.md)
+- Secured API keys via server environment variables (never on client)
+- Improved performance: images now lazy-loaded, alt text added, optimized blog grid
+- Responsive layout tweaks for mobile (footer, nav, modals, blog cards)
+- Accessibility fixes: improved button labels, contrast, keyboard navigation for modals
+- SEO upgrades: meta tags, OpenGraph, recommended metadata templates
+- Blog editorial reviewed, suggestions provided, internal linking plan included
+- Added new blog topic ideas for basketball analytics/data-driven training
+- Improved error handling for all dynamic/AI features
+
+Performance Impact:
+- Faster page loads due to lazy image loading, reduced unused assets
+- More usable on mobile and tablet
+- AI-based features more reliable; clear user error messages
+
+Future Enhancements:
+- Migrate workout, blog, and question answering to OpenAI
+- Add user authentication for customizing AI suggestions
+- Expand blog with video/data visualizations
+- Consider converting static HTML to headless CMS or React for easier content management
+- Expand analytics features in UI
+
+All code, content, and docs saved in Drive and staged in feature/ai-openai-integration-and-seo GitHub branch.

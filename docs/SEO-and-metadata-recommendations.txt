@@ -1,0 +1,29 @@
+SEO and Metadata Enhancement Recommendations for Hoopscope
+
+---
+
+General
+- Each page and blog post should include a <meta name="description"> with relevant keywords
+- Use <meta property="og:title">, <meta property="og:description">, and <meta property="og:image"> for high-quality sharing previews
+- Add schema.org microdata for articles and news
+
+Homepage SEO
+- Title: Hoopscope: Basketball Analytics & Data-Driven Training
+- Description: Track your basketball stats, get AI-powered workout plans, and access pro-level analytics to transform your game. Join the data-driven training revolution.
+- Keywords: basketball analytics, player stats, AI basketball, shot chart, NBA analytics, basketball data, training app
+
+Blog Section SEO
+- Use canonical URLs for blog posts
+- Add internal linking within posts to related Hoopscope analytics content
+- Use descriptive image alt text, e.g. "player shooting off dribble, shot chart data overlay"
+
+Recommended Metadata Template
+Example (fill in for each post):
+<meta name="description" content="{{brief and keyword-rich summary}}">
+<meta name="keywords" content="basketball analytics, [topic-specific keywords]">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:image" content="{{featured image url}}">
+
+---
+Implement these suggestions to improve search visibility and user engagement.
