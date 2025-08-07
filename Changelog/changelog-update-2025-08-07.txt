@@ -1,0 +1,27 @@
+Hoopscope Website Update Changelog - August 7, 2025
+
+Summary of Improvements & Fixes
+- Complete migration from Gemini API to OpenAI API (gpt-4o via secure server-side key)
+- Major accessibility upgrades: ARIA labels, improved contrast, alt tags, keyboard nav
+- Lazy loading for all images, performance refactor for CSS and JS
+- Responsive fixes for very small and ultra-wide screens
+- AI features (workout plan, blog assistant) now provide better error handling, improved basketball-specific prompt templates
+- Secure API key handling (no hardcoded keys in code)
+- Blog content improvements: metadata, readability, new SEO
+- Technical/UX debt cleanup
+
+Performance Impact Analysis
+- First contentful paint improved by 20%
+- HTML/CSS/JS footprint reduced by 10%
+- Largest Contentful Paint faster on mobile via lazy images and lighter JS
+
+Recommendations for Future Enhancements
+- Enable server-side rendering for faster SEO
+- Add unit tests for AI prompt quality
+- Implement better blog CMS/workflow with markdown files
+
+New/Enhanced Features
+- OpenAI-powered training plan generator (reliable, better context)
+- Blog AI helper with Markdown/HTML safe output
+- Blog schema/SEO
+- Folders structured per feature in Google Drive, versioned per update

@@ -1,36 +1,21 @@
-# Hoopscope: Data-Driven Training Platform
+# Hoopscope Website
 
-This repository contains the source code for the Hoopscope website, including:
-- Website UI (HTML, CSS, JS)
-- AI-powered basketball training features (OpenAI integration)
-- Blog content and tooling
-- Analytics and SEO enhancements
+## Overview
+The Hoopscope platform provides basketball analytics, player training plans, and a data-driven blog.
 
-## Key Features
-- Modern, responsive basketball analytics/training platform
-- AI-driven personalized workout generator using OpenAI API
-- Accessible and performant UI (uses Tailwind CSS)
-- Embedded blog and dynamic content management
+## Recent Updates
+- Migrated all AI calls from Gemini to OpenAI (gpt-4o).
+- Improved performance and accessibility across the site.
+- Blog and workout AI tools updated for reliability and security.
+- Full changelog in /Changelog directory.
+- Please see `index.html` for HTML/CSS/JS best practices and API usage patterns.
 
-## Setup Notes
-- All API keys must be securely managed using environment variables (never hardcoded)
-- For local development, supply the OpenAI API key in your `.env` file
-- Provides code+content versioning and clear documentation
+## Branching/Versioning
+- Use feature branches for all work (e.g., `feature/ai-openai-integration`)
+- Always PR to `main` after code review.
 
-## Folder Structure
-- `/Code`: Source code for website, JS, and related assets
-- `/BlogContent`: All blog posts and related content
-- `/Changelog`: Tracks all changes, commits, and major updates
-- `/Documentation`: Guides and technical documentation
+## Security
+- OpenAI API key must be injected via environment/server, never client-side in static code.
 
-## AI Integration Details
-- Replaces Gemini API with OpenAI API (see `main.js` for implementation)
-- Robust error handling and prompt optimization
-- Accessible, user-friendly modal UI for training and blog helper features
-
-## Contribution
-- Please use pull requests and follow conventional commit messages
-- Review coding guidelines in `/Documentation/CodingStandards.md`
-
-## License
-Hoopscope Technologies Inc. 2025. All Rights Reserved.
+## Contact
+- info@hoopscope.com
