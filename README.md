@@ -1,36 +1,38 @@
-# Hoopscope: Data-Driven Training Platform
+# Hoopscope Website
 
-This repository contains the source code for the Hoopscope website, including:
-- Website UI (HTML, CSS, JS)
-- AI-powered basketball training features (OpenAI integration)
-- Blog content and tooling
-- Analytics and SEO enhancements
+## Overview
+Hoopscope is your platform for basketball analytics, AI-powered training plans, and data-driven content/community, helping users improve efficiently.
 
-## Key Features
-- Modern, responsive basketball analytics/training platform
-- AI-driven personalized workout generator using OpenAI API
-- Accessible and performant UI (uses Tailwind CSS)
-- Embedded blog and dynamic content management
+## Features
+- **Performance Analytics**: In-depth stat tracking & improvement tools
+- **Pro League Data**: NBA, EuroLeague advanced stats
+- **Smart Community**: Connect with players, trainers, analysts
+- **Personalized AI Training**: Custom workout plans via OpenAI API
 
-## Setup Notes
-- All API keys must be securely managed using environment variables (never hardcoded)
-- For local development, supply the OpenAI API key in your `.env` file
-- Provides code+content versioning and clear documentation
+## Tech Stack
+- HTML, Tailwind CSS, Vanilla JS
+- OpenAI API for generative AI features
+- Responsive, accessible, and performance-optimized code
 
-## Folder Structure
-- `/Code`: Source code for website, JS, and related assets
-- `/BlogContent`: All blog posts and related content
-- `/Changelog`: Tracks all changes, commits, and major updates
-- `/Documentation`: Guides and technical documentation
+---
 
-## AI Integration Details
-- Replaces Gemini API with OpenAI API (see `main.js` for implementation)
-- Robust error handling and prompt optimization
-- Accessible, user-friendly modal UI for training and blog helper features
+## Getting Started
+1. Clone repo and update `.env` or set `OPENAI_API_KEY` securely
+2. Serve or deploy index.html as usual
+3. Environment variables must be handled securely (do not expose keys)
 
-## Contribution
-- Please use pull requests and follow conventional commit messages
-- Review coding guidelines in `/Documentation/CodingStandards.md`
+## API
+- All AI requests use OpenAI's official API endpoint
+- **DO NOT** hardcode API keys in client code
 
-## License
-Hoopscope Technologies Inc. 2025. All Rights Reserved.
+---
+
+## Contributing
+- Please use feature branches (`feature/XXX`), descriptive commit messages, and PRs
+- Keep content focused on basketball analytics/data-driven training
+
+---
+
+## Versioning
+- File naming and folders reflect change history (see changelog)
+- All docs & code updates tracked in Google Drive & GitHub
